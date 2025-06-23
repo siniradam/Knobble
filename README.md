@@ -126,9 +126,7 @@ The code is now modularized for better organization and maintainability:
 - Connect to WiFi network: **SmartMenu_Config** (Password: **password123**)
 - Open a web browser and navigate to: **192.168.4.1**
 
-<img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 1">
-<img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 2">
-<img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 3">
+<img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 1"> <img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 2"> <img src="https://raw.githubusercontent.com/siniradam/knobble/main/etc/web-ui-1.png" width="30%" alt="Knobble Web UI 3">
 
 
 ### 3. WiFi Configuration
