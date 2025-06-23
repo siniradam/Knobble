@@ -1,0 +1,124 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "submenus": [
+        {
+          "name": "Living Room",
+          "devices": [
+            {
+              "name": "TV",
+              "type": "onoff",
+              "device_id": "living_room_tv"
+            },
+            {
+              "name": "Main Light",
+              "type": "onoff",
+              "device_id": "living_room_light_main"
+            },
+            {
+              "name": "Ambient Light",
+              "type": "brightness",
+              "device_id": "living_room_light_ambient"
+            },
+            {
+              "name": "RGB Strip",
+              "type": "color",
+              "device_id": "living_room_rgb_strip"
+            }
+          ]
+        },
+        {
+          "name": "Master Bedroom",
+          "devices": [
+            {
+              "name": "Ceiling Light",
+              "type": "onoff",
+              "device_id": "bedroom_ceiling_light"
+            },
+            {
+              "name": "Bedside Lamp",
+              "type": "brightness",
+              "device_id": "bedroom_bedside_lamp"
+            },
+            {
+              "name": "Window Blinds",
+              "type": "brightness",
+              "device_id": "bedroom_blinds"
+            }
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "devices": [
+            {
+              "name": "Overhead Lights",
+              "type": "onoff",
+              "device_id": "kitchen_overhead"
+            },
+            {
+              "name": "Under Cabinet",
+              "type": "brightness",
+              "device_id": "kitchen_under_cabinet"
+            },
+            {
+              "name": "Island Light",
+              "type": "color",
+              "device_id": "kitchen_island_light"
+            }
+          ]
+        },
+        {
+          "name": "Bathroom",
+          "devices": [
+            {
+              "name": "Main Light",
+              "type": "onoff",
+              "device_id": "bathroom_main_light"
+            },
+            {
+              "name": "Mirror Light",
+              "type": "brightness",
+              "device_id": "bathroom_mirror_light"
+            },
+            {
+              "name": "Exhaust Fan",
+              "type": "onoff",
+              "device_id": "bathroom_exhaust_fan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Requests",
+      "actions": [
+        {
+          "name": "Good Morning",
+          "url": "http://yourserver.com:5000/request1"
+        },
+        {
+          "name": "Good Night",
+          "url": "http://yourserver.com:5000/request2"
+        },
+        {
+          "name": "Party Mode",
+          "url": "http://yourserver.com:5000/party-mode"
+        },
+        {
+          "name": "Away Mode",
+          "url": "http://yourserver.com:5000/away-mode"
+        },
+        {
+          "name": "Movie Time",
+          "url": "http://yourserver.com:5000/movie-mode"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "wifi_ssid": "YourHomeWiFi",
+    "wifi_password": "YourWiFiPassword",
+    "main_url": "http://yourserver.com:5000/api"
+  }
+}
